@@ -223,6 +223,33 @@
     <!-- End of headEnd -->
 </head>
 <body>
+    <style>
+        /* Hide Framer badge and Edit Content button */
+        #__framer-badge-container,
+        .__framer-badge,
+        [data-framer-name="Framer Badge"],
+        .framer-6jWyo,
+        [title*="Create a free website with Framer"],
+        [href="https://www.framer.com"],
+        div[style*="pointer-events:auto"][class*="framer-"],
+        [data-framer-name="Light"],
+        [data-framer-appear-id="n0ccwk"] {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+        }
+        /* Hide Edit Content button and editor bar */
+        [data-framer-edit-button],
+        [data-framer-editor-bar],
+        .framer-editorbar,
+        iframe[src*="framer.com/edit"],
+        [class*="editorbar"],
+        [id*="framer-badge"] {
+            display: none !important;
+            visibility: hidden !important;
+        }
+    </style>
     <script async src="https://events.framer.com/script?v=2" data-fid="7ffc5b494954ef5d987f1c949bd9b267dc41fbe0031050d414c8f79bd410853a" data-no-nt></script>
     <!-- Start of bodyStart -->
     
